@@ -1,15 +1,10 @@
-[submodule "openfisca_nsw_ess_nabers"]
-	path = openfisca_nsw_ess_nabers
-	url = https://github.com/Openfisca-NSW/openfisca_nsw_ess_nabers.git
-[submodule "openfisca_nsw_API"]
-	path = openfisca_nsw_API
-	url = https://github.com/Openfisca-NSW/openfisca_nsw_API.git
 [submodule "openfisca_nsw_base"]
 	path = openfisca_nsw_base
 	url = https://github.com/tjharrop/openfisca_nsw_base.git
-[submodule "openfisca_nsw_community_gaming"]
-	path = openfisca_nsw_community_gaming
-	url = https://github.com/Openfisca-NSW/openfisca_nsw_community_gaming.git
-[submodule "openfisca_nsw_rules_kids_vouchers"]
-	path = openfisca_nsw_rules_kids_vouchers
-	url = https://github.com/Openfisca-NSW/openfisca_nsw_rules_kids_vouchers.git
+[submodule "openfisca_nsw_ess_nabers"]
+	path = openfisca_nsw_ess_nabers
+	url = https://github.com/Openfisca-NSW/openfisca_nsw_ess_nabers.git
+[submodule "openfisca_core"]
+	path = openfisca_core
+	url = https://github.com/openfisca/openfisca-core.git
+    branch = dependencies
