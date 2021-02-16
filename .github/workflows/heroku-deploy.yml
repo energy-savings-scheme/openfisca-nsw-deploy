@@ -1,5 +1,10 @@
-name: ManualDeployment #set whatevername you want to your github job
-on: workflow_dispatch
+name: HerokuBuildAndDeploy #set whatevername you want to your github job
+on:
+  repository_dispatch: # Triggered by a `push` event on a submodule
+    types: [submodule-updated] # repository_dispatch must have 'type' == "submodule-updated"
+
+  workflow_dispatch: # Manual github trigger (by pressing "Run workflow" on Github "Actions" tab)
+
 jobs:
   build:
     runs-on: ubuntu-latest
