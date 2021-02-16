@@ -1,4 +1,4 @@
-name: 'heroku-deploy' #set whatevername you want to your github job
+name: ManualDeployment #set whatevername you want to your github job
 on: workflow_dispatch
 jobs:
   build:
