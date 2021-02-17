@@ -7,6 +7,9 @@ on:
 
 jobs:
   build:
+    environment:
+      name: ${{ secrets.HEROKU_APP_NAME }}
+      url: https://${{ secrets.HEROKU_APP_NAME }}.herokuapp.com
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
