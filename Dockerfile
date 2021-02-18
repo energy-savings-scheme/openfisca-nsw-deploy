@@ -9,7 +9,7 @@ COPY . /openfisca_nsw_api
 WORKDIR /openfisca_nsw_api
 
 # Clone submodules from git
-RUN git submodule init && git submodule update
+RUN git submodule init && git submodule update --recursive --remote
 
 # Install openfisca-core `dependencies` branch
 # NOTE - this is a temporary step while we wait for this branch to be merged into master
