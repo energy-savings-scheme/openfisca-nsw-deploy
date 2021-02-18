@@ -29,7 +29,7 @@ You may want to add more submodules. A typical use-case is to include another Op
 ```sh
 # Clone the repo to your local machine
 # Open a Terminal in the working directory
-$ git submodule add <repo_url> --name <desired_submodule_name> --branch <branch_name (optional)>
+$ git submodule add --name <desired_submodule_name> --branch <branch_name (optional)> <repo_url (required)> 
 $ git commit -a
 $ git push origin master
 
