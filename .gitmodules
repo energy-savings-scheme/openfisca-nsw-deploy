@@ -8,3 +8,6 @@
 	path = openfisca-core
 	url = https://github.com/openfisca/openfisca-core.git
 	branch = dependencies
+[submodule "openfisca_nsw_ess_heer"]
+	path = openfisca_nsw_ess_heer
+	url = https://github.com/energy-savings-scheme/openfisca_nsw_ess_heer.git

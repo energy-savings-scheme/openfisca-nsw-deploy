@@ -18,6 +18,7 @@ RUN python -m pip install ./openfisca-core/
 # Install each country-package and extension
 RUN python -m pip install ./openfisca_nsw_base/
 RUN python -m pip install ./openfisca_nsw_ess_nabers/
+RUN python -m pip install ./openfisca_nsw_ess_heer/
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
