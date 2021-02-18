@@ -11,3 +11,6 @@
 [submodule "openfisca_nsw_ess_heer"]
 	path = openfisca_nsw_ess_heer
 	url = https://github.com/energy-savings-scheme/openfisca_nsw_ess_heer.git
+[submodule "openfisca_nsw_ess_sandbox"]
+	path = openfisca-nsw-ess-sandbox
+	url = https://github.com/energy-savings-scheme/openfisca-nsw-ess-sandbox.git
