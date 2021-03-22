@@ -20,7 +20,6 @@ RUN python -m pip install ./openfisca-core[web-api]
 RUN python -m pip install ./openfisca_nsw_base
 RUN python -m pip install ./openfisca_nsw_ess_nabers
 RUN python -m pip install ./openfisca_nsw_ess_heer
-RUN python -m pip install ./openfisca-nsw-ess-sandbox
 RUN python -m pip install ./openfisca_nsw_pdrs
 
 COPY entrypoint.sh /entrypoint.sh
