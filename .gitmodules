@@ -11,3 +11,6 @@
 [submodule "openfisca_nsw_pdrs"]
 	path = openfisca_nsw_pdrs
 	url = https://github.com/energy-savings-scheme/openfisca_nsw_pdrs.git
+[submodule "openfisca_nsw_ess"]
+	path = openfisca_nsw_ess
+	url = https://github.com/energy-savings-scheme/openfisca_nsw_ess.git
