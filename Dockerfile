@@ -18,6 +18,7 @@ RUN python -m pip install ./openfisca-core[web-api] --use-deprecated=legacy-reso
 # Install each country-package and extension
 RUN python -m pip install ./openfisca_nsw_base --use-deprecated=legacy-resolver
 RUN python -m pip install ./openfisca_nsw_pdrs --use-deprecated=legacy-resolver
+RUN python -m pip install ./openfisca_nsw_ess --use-deprecated=legacy-resolver
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
