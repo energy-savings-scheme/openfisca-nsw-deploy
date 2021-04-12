@@ -1,9 +1,6 @@
 [submodule "openfisca_nsw_base"]
 	path = openfisca_nsw_base
 	url = https://github.com/tjharrop/openfisca_nsw_base.git
-[submodule "openfisca_nsw_ess_nabers"]
-	path = openfisca_nsw_ess_nabers
-	url = https://github.com/Openfisca-NSW/openfisca_nsw_ess_nabers.git
 [submodule "openfisca_core"]
 	path = openfisca-core
 	url = https://github.com/openfisca/openfisca-core.git
