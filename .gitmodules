@@ -3,11 +3,7 @@
 	url = https://github.com/tjharrop/openfisca_nsw_base.git
 [submodule "openfisca_core"]
 	path = openfisca-core
-	url = https://github.com/openfisca/openfisca-core.git
-	branch = add-variable-metadata
-[submodule "openfisca_nsw_ess_sandbox"]
-	path = openfisca-nsw-ess-sandbox
-	url = https://github.com/energy-savings-scheme/openfisca-nsw-ess-sandbox.git
+	url = https://github.com/energy-savings-scheme/openfisca-core.git
 [submodule "openfisca_nsw_pdrs"]
 	path = openfisca_nsw_pdrs
 	url = https://github.com/energy-savings-scheme/openfisca_nsw_pdrs.git
