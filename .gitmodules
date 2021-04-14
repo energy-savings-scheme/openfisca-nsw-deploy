@@ -1,12 +1,6 @@
-[submodule "openfisca_nsw_base"]
-	path = openfisca_nsw_base
-	url = https://github.com/tjharrop/openfisca_nsw_base.git
 [submodule "openfisca_core"]
 	path = openfisca-core
 	url = https://github.com/energy-savings-scheme/openfisca-core.git
-[submodule "openfisca_nsw_pdrs"]
-	path = openfisca_nsw_pdrs
-	url = https://github.com/energy-savings-scheme/openfisca_nsw_pdrs.git
-[submodule "openfisca_nsw_ess"]
-	path = openfisca_nsw_ess
-	url = https://github.com/energy-savings-scheme/openfisca_nsw_ess.git
+[submodule "openfisca_nsw_safeguard"]
+	path = openfisca_nsw_safeguard
+	url = https://github.com/energy-savings-scheme/openfisca_nsw_safeguard.git

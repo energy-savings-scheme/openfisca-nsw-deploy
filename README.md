@@ -90,7 +90,7 @@ Notes:
 You can also run this deployment on a local docker container.
 
 ```sh
-  git submodule init && git submodule update
+  git submodule init && git submodule update --recursive --remote
   docker build -f Dockerfile -t api_test .
   docker run --env PORT=80 -p 8001:80 api_test
 ```

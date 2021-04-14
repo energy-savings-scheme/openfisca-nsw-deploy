@@ -16,9 +16,7 @@ RUN git submodule init && git submodule update --recursive --remote
 RUN python -m pip install ./openfisca-core[web-api] --use-deprecated=legacy-resolver
 
 # Install each country-package and extension
-RUN python -m pip install ./openfisca_nsw_base --use-deprecated=legacy-resolver
-RUN python -m pip install ./openfisca_nsw_pdrs --use-deprecated=legacy-resolver
-RUN python -m pip install ./openfisca_nsw_ess --use-deprecated=legacy-resolver
+RUN python -m pip install ./openfisca_nsw_safeguard --use-deprecated=legacy-resolver
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
